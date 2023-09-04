@@ -1,0 +1,4 @@
+simplegmail
+twilio
+nltk
+colorama
