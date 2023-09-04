@@ -1,0 +1,16 @@
+title = "EmailNotifier"
+author = "Taran Nagra"
+version = 1.0
+
+[twilio]
+from_number = "NUMBER YOU GET FROM TWILIO"
+to_number = "YOUR NUMBER TO SEND SMS TO"
+account_sid = "ACCOUNT SID FROM TWILIO"
+auth_token = "AUTH TOKEN FROM TWILIO"
+message_body = "MESSAGE TO SAY IN SMS MESSAGE"
+
+[gmail]
+sender = "EMAIL ADDRESS TO MONITOR"
+to_watch = "EMAIL ADDRESS YOU WANT TO TO CHECK FOR A MATCH"
+keywords = ["please", "star", "me", "on", "github"]
+# CHANGE THE ABOVE KEYWORDS TO KEYWORDS IN THE EMAIL YOU ARE SEARCHING FOR
